@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import time
 
-classifierFace  = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+classifierFace  = cv2.CascadeClassifier("d:\Main_place\FACE-TRACKING-SYSTEM\Face_Tracking_System(PYTHON CODE)\haarcascade_frontalface_default.xml")
 
 videoCam = cv2.VideoCapture(0)
 
